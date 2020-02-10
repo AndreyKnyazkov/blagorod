@@ -27,6 +27,8 @@ body {
 }
 
 .dropdown-content {
+    height: 150px;
+    overflow-y: scroll; /* прокрутка по вертикали */
     display: none;
     position: absolute;
     right: 0;
