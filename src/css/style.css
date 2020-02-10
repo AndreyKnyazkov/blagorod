@@ -27,10 +27,10 @@ body {
 }
 
 .dropdown-content {
+  transform: translateY(-134%);
     height: 150px;
     overflow-y: scroll; /* прокрутка по вертикали */
     display: none;
-    position: absolute;
     right: 0;
     background-color: #f9f9f9;
     min-width: 160px;
